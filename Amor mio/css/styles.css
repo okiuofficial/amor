@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+}
+.formill {
+    display: inline-block;
+    width: 100%;
+}
+.formill h1 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 100px 0 0 0;
+    color: rgb(0, 166, 255);
+}
+.formill img {
+    display: block;
+    margin: auto;
+    filter: brightness(0);
+    width: 40px;
+    height: 40px;
+    transition-duration: 1s;
+    filter: invert(1);
+}
+.formill img:hover {
+    transition-duration: 1s;
+    filter: brightness(1);
+    border-radius: 0%;
+    width: 512px;
+    height: 512px;
+    filter: contrast(2);
+}
+.formill p {
+    text-align: center;
+    font-family: cursive;
+    margin: 40px 400px;
+}
+.formill h2 {
+    text-align: center;
+    font-family: fantasy;
+    margin: 0px 0 60px 0;
+    color: rgb(0, 166, 255);
+}
+.aud audio{
+    position: fixed;
+    right: -258px;
+    top: 200px;
+}
+
+.aud2 audio{
+    position: fixed;
+    right: -258px;
+    top: 300px;
+}
